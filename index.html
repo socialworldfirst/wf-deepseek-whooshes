@@ -1,0 +1,137 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Whoosh Storyboard</title>
+<style>
+:root{--bg:#fff;--card:#fff;--ink:#111;--mute:#6b6b6b;--line:#e4e4e4;--soft:#f5f5f5}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e0e0e;--card:#151515;--ink:#f2f2f2;--mute:#9a9a9a;--line:#2a2a2a;--soft:#1d1d1d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,system-ui,Helvetica,Arial,sans-serif}
+main{max-width:1280px;margin:0 auto;padding:36px 16px 140px}h1{font-size:26px;font-weight:600;margin:0 0 6px}.intro{color:var(--mute);max-width:820px;margin:0 0 8px}
+.bar{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 22px}.bar button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 14px;font:inherit;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:18px}
+.card{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--card);transition:opacity .15s}.card img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover;border-bottom:1px solid var(--line)}
+.card.off{opacity:.55}.card.off img{filter:grayscale(1)}.body{padding:14px}.row{display:flex;align-items:center;gap:10px}.id{font-weight:600}.t{color:var(--mute);font-size:13px}
+.tg{margin-left:auto;border:1px solid var(--ink);border-radius:999px;background:var(--ink);color:var(--bg);font:600 13px/1 inherit;padding:7px 14px;cursor:pointer}
+.tg .r{display:none}.card.off .tg{background:transparent;color:var(--ink)}.card.off .tg .k{display:none}.card.off .tg .r{display:inline}
+h2{font-size:17px;font-weight:600;margin:8px 0 2px}.body p{color:var(--mute);margin:0 0 10px;font-size:14px}
+.ab{display:flex;align-items:center;gap:8px;margin:6px 0}.ab label{width:58px;font-size:13px;color:var(--mute)}.ab audio{flex:1;height:34px}
+textarea{width:100%;margin-top:8px;border:1px solid var(--line);border-radius:10px;background:var(--soft);color:var(--ink);font:inherit;font-size:14px;padding:8px;min-height:38px;resize:vertical}
+.dock{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);padding:12px 16px}.dock .in{max-width:1280px;margin:0 auto;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.dock textarea{flex:1;min-width:240px;margin:0}.dock .cnt{color:var(--mute);font-size:14px}.copy{border:1px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:10px;padding:10px 18px;font:600 14px inherit;cursor:pointer}
+</style></head><body><main>
+<h1>Whoosh storyboard</h1>
+<p class="intro">Every whoosh and swell in the v11 soundtrack, in film order. Each card plays that moment with and without the whoosh. The music is identical in both, only the whoosh changes. Everything starts on Keep: click the button to switch a card to Remove, then copy the prompt at the bottom and paste it back to me.</p>
+<div class="bar"><button id="allk">Keep all</button><button id="allr">Remove all</button></div>
+<div class="grid"><article class="card on" data-id="W00" data-name="Logo dive" data-t="0:08.3">
+<img src="img/W00.jpg" alt="Logo dive at 0:08.3">
+<div class="body"><div class="row"><span class="id">W00</span><span class="t">0:08.3 to 0:09.8</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Logo dive</h2><p>The whoosh as the camera dives through the DeepSeek logo into the chat box. It is baked into the hook audio, so off fades the hook out just before it.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W00_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W00_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article><article class="card on" data-id="W01" data-name="Into the product" data-t="0:09.4">
+<img src="img/W01.jpg" alt="Into the product at 0:09.4">
+<div class="body"><div class="row"><span class="id">W01</span><span class="t">0:09.4 to 0:11.1</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Into the product</h2><p>Air swell across the dissolve from the logo into the DeepSeek chat screen.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W01_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W01_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article><article class="card on" data-id="W02" data-name="Take-off riser" data-t="0:16.4">
+<img src="img/W02.jpg" alt="Take-off riser at 0:16.4">
+<div class="body"><div class="row"><span class="id">W02</span><span class="t">0:16.4 to 0:18.7</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Take-off riser</h2><p>Rising noise sweep while the agent wall speeds up from Agent 4.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W02_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W02_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article><article class="card on" data-id="W03" data-name="Landing tail" data-t="0:18.7">
+<img src="img/W03.jpg" alt="Landing tail at 0:18.7">
+<div class="body"><div class="row"><span class="id">W03</span><span class="t">0:18.7 to 0:19.6</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Landing tail</h2><p>Falling swell after the impact as the 24-agent dashboard lands.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W03_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W03_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article><article class="card on" data-id="W04" data-name="Zoom to Top up" data-t="0:25.3">
+<img src="img/W04.jpg" alt="Zoom to Top up at 0:25.3">
+<div class="body"><div class="row"><span class="id">W04</span><span class="t">0:25.3 to 0:25.9</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Zoom to Top up</h2><p>Short swell as the camera pushes onto the Top up button at 0%.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W04_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W04_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article><article class="card on" data-id="W05" data-name="Into the click" data-t="0:26.2">
+<img src="img/W05.jpg" alt="Into the click at 0:26.2">
+<div class="body"><div class="row"><span class="id">W05</span><span class="t">0:26.2 to 0:26.8</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Into the click</h2><p>Swell building into the Top up click.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W05_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W05_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article><article class="card on" data-id="W06" data-name="Click into WorldFirst" data-t="0:26.8">
+<img src="img/W06.jpg" alt="Click into WorldFirst at 0:26.8">
+<div class="body"><div class="row"><span class="id">W06</span><span class="t">0:26.8 to 0:27.6</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Click into WorldFirst</h2><p>Swell from the click through the blue burst into the WorldFirst For Enterprise logo.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W06_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W06_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article><article class="card on" data-id="W07" data-name="Into the currency roller" data-t="0:28.8">
+<img src="img/W07.jpg" alt="Into the currency roller at 0:28.8">
+<div class="body"><div class="row"><span class="id">W07</span><span class="t">0:28.8 to 0:29.5</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Into the currency roller</h2><p>Swell as the logo clears and the currency roller opens.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W07_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W07_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article><article class="card on" data-id="W08" data-name="Coin travel" data-t="0:33.4">
+<img src="img/W08.jpg" alt="Coin travel at 0:33.4">
+<div class="body"><div class="row"><span class="id">W08</span><span class="t">0:33.4 to 0:35.1</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Coin travel</h2><p>Left-to-right whoosh as the silver coin leaves SGD and travels across.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W08_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W08_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article><article class="card on" data-id="W09" data-name="Flash into the account" data-t="0:40.5">
+<img src="img/W09.jpg" alt="Flash into the account at 0:40.5">
+<div class="body"><div class="row"><span class="id">W09</span><span class="t">0:40.5 to 0:41.1</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Flash into the account</h2><p>Swell into the white flash as the coin lands in the SGD account.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W09_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W09_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article><article class="card on" data-id="W10" data-name="Token refill" data-t="0:49.2">
+<img src="img/W10.jpg" alt="Token refill at 0:49.2">
+<div class="body"><div class="row"><span class="id">W10</span><span class="t">0:49.2 to 0:54.1</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Token refill</h2><p>The long rising swell under Refilling tokens, 0% to 100%. The one you flagged first.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W10_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W10_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article><article class="card on" data-id="W11" data-name="Squares rise" data-t="0:58.8">
+<img src="img/W11.jpg" alt="Squares rise at 0:58.8">
+<div class="body"><div class="row"><span class="id">W11</span><span class="t">0:58.8 to 0:59.9</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Squares rise</h2><p>Two short swells as the letters turn into squares and the wave grows.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W11_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W11_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article><article class="card on" data-id="W12" data-name="Stack collapse" data-t="1:02.8">
+<img src="img/W12.jpg" alt="Stack collapse at 1:02.8">
+<div class="body"><div class="row"><span class="id">W12</span><span class="t">1:02.8 to 1:04.1</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Stack collapse</h2><p>Swell as the footage stack shrinks into the cursor.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W12_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W12_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article><article class="card on" data-id="W13" data-name="Particle break" data-t="1:06.6">
+<img src="img/W13.jpg" alt="Particle break at 1:06.6">
+<div class="body"><div class="row"><span class="id">W13</span><span class="t">1:06.6 to 1:08.9</span>
+<button class="tg" aria-pressed="true"><span class="k">Keep</span><span class="r">Remove</span></button></div>
+<h2>Particle break</h2><p>Swells as the line breaks into particles and flies into the lockup.</p>
+<div class="ab"><label>With</label><audio controls preload="none" src="a/W13_on.mp3"></audio></div>
+<div class="ab"><label>Without</label><audio controls preload="none" src="a/W13_off.mp3"></audio></div>
+<textarea placeholder="Note (optional): e.g. keep but quieter"></textarea></div></article></div></main>
+<div class="dock"><div class="in"><span class="cnt" id="cnt"></span><textarea id="gn" placeholder="Overall note (optional): e.g. keep the take-off, drop every other swell"></textarea><button class="copy" id="cp">Copy prompt</button></div></div>
+<script>
+const cards=[...document.querySelectorAll('.card')];
+const upd=()=>{const r=cards.filter(c=>c.classList.contains('off')).length;document.getElementById('cnt').textContent=`${cards.length-r} kept · ${r} removed`};
+cards.forEach(c=>c.querySelector('.tg').addEventListener('click',()=>{c.classList.toggle('off');c.classList.toggle('on');c.querySelector('.tg').setAttribute('aria-pressed',c.classList.contains('on'));upd()}));
+document.getElementById('allk').onclick=()=>{cards.forEach(c=>{c.classList.add('on');c.classList.remove('off')});upd()};
+document.getElementById('allr').onclick=()=>{cards.forEach(c=>{c.classList.add('off');c.classList.remove('on')});upd()};
+const auds=[...document.querySelectorAll('audio')];auds.forEach(a=>a.addEventListener('play',()=>auds.forEach(o=>{if(o!==a)o.pause()})));
+document.getElementById('cp').onclick=async()=>{
+  const line=c=>{const n=c.querySelector('textarea').value.trim();return `- ${c.dataset.id} ${c.dataset.name} (${c.dataset.t})`+(n?` · note: ${n}`:'')};
+  const k=cards.filter(c=>c.classList.contains('on')),r=cards.filter(c=>c.classList.contains('off'));
+  const g=document.getElementById('gn').value.trim();
+  const txt=`== wf-deepseek-film whooshes ==\nKEEP (${k.length}):\n${k.map(line).join('\n')||'- none'}\nREMOVE (${r.length}):\n${r.map(line).join('\n')||'- none'}`+(g?`\nOVERALL NOTE: ${g}`:'')+`\n> re-render the v11 score with REMOVE muted (final/score_v12.py MUTE=..., remix_v12.py VIDEO=WorldFirst_x_DeepSeek_film_1080p_v12.mp4), apply notes, open in Chrome`;
+  try{await navigator.clipboard.writeText(txt)}catch(e){const t=document.createElement('textarea');t.value=txt;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove()}
+  const b=document.getElementById('cp');b.textContent='Copied';setTimeout(()=>b.textContent='Copy prompt',1400)};
+upd();
+</script></body></html>
